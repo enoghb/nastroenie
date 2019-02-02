@@ -18,17 +18,63 @@ body {
     width: 100%;
     height: 100%; }
 
+#google-maps {
+  height: 450px; }
+
+@media (max-width: 992px) {
+  #header-section {
+    min-height: 500px; }
+    #header-section h1 {
+      font-size: 4.0rem; }
+
+  .about-pic {
+    display: none; }
+
+  #contact h3 {
+    font-size: 1.5rem; }
+  #contact h5 {
+    font-size: 1rem; }
+
+  #google-maps {
+    height: 400px; } }
 @media (max-width: 768px) {
   #header-section {
     min-height: 400px; }
     #header-section h1 {
       font-size: 3.5rem; }
 
+  #presentation-btn {
+    display: none; }
+
   #quote {
     display: none; }
 
-  #contact {
-    font-size: 0.5rem; } }
-@media (max-width: 992px) {
-  .about-pic {
-    display: none; } }
+  #contact h3 {
+    font-size: 1.5rem; }
+  #contact h5 {
+    font-size: 1rem; }
+
+  #google-maps {
+    height: 350px; } }
+@media (max-width: 576px) {
+  #header-section {
+    min-height: 400px; }
+    #header-section h1 {
+      font-size: 3rem; }
+
+  #presentation-btn {
+    display: none; }
+
+  #quote {
+    display: none; }
+
+  #contact h3 {
+    font-size: 1.25rem; }
+  #contact h5 {
+    font-size: 1rem; }
+
+  #footer {
+    font-size: 0.9rem; }
+
+  #google-maps {
+    height: 250px; } }
