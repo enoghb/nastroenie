@@ -30,6 +30,9 @@ body {
   .about-pic {
     display: none; }
 
+  #header-teachers h1 {
+    font-size: 4.0rem; }
+
   #contact h3 {
     font-size: 1.5rem; }
   #contact h5 {
@@ -42,6 +45,9 @@ body {
     min-height: 400px; }
     #header-section h1 {
       font-size: 3.5rem; }
+
+  #header-teachers h1 {
+    font-size: 3.5rem; }
 
   #presentation-btn {
     display: none; }
@@ -61,6 +67,9 @@ body {
     min-height: 400px; }
     #header-section h1 {
       font-size: 3rem; }
+
+  #header-teachers h1 {
+    font-size: 3rem; }
 
   #presentation-btn {
     display: none; }
