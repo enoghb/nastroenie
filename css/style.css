@@ -21,6 +21,9 @@ body {
 #google-maps {
   height: 450px; }
 
+#achiev-grid {
+  display: grid; }
+
 @media (max-width: 992px) {
   #header-section {
     min-height: 500px; }
@@ -69,7 +72,7 @@ body {
       font-size: 3rem; }
 
   #header-teachers h1 {
-    font-size: 3rem; }
+    font-size: 2.5rem; }
 
   #presentation-btn {
     display: none; }

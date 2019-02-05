@@ -1,4 +1,4 @@
 $('.carousel').carousel({
-    interval: 7000,
-    pause: "hover"
+  interval: 7000,
+  pause: "hover"
 });
