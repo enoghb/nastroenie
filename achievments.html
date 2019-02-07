@@ -19,17 +19,17 @@
         <img src="./img/logo_400x400.png" height="40px" width="40px" alt="Настроение">
         <h5 class="d-inline align-middle">Настроение</h5>
       </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="modal" data-target="#nav-modal" aria-controls="navbarsidebar"
+        aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse" id="navbarsidebar">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="./index.html">О студии</a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="./achievments.html">Достижения</a>
           </li>
           <li class="nav-item">
@@ -42,6 +42,14 @@
       </div>
     </div>
   </nav>
+
+  <header id="header-achiev" class="my-5">
+    <div class="d-flex align-items-center primary-overlay">
+      <div class="container mt-5 text-center">
+        <h1 class="display-3 m-0">Наши достижения</h1>
+      </div>
+    </div>
+  </header>
 
   <section id="grid" class="my-5">
     <div id="achiev-grid" class="container">
@@ -64,6 +72,36 @@
       </div>
     </div>
   </footer>
+
+  <section id="modal">
+    <div class="modal fade pr-0" id="nav-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true">
+      <div class="modal-dialog modal-full" role="document">
+        <div class="modal-content">
+
+          <div class="modal-body d-flex justify-content-center align-items-center">
+            <button type="button" id="closeModal" class="btn btn-link text-white" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <ul class="modal-ul">
+              <li class="modal-li">
+                <a class="nav-link" href="./index.html">О студии</a>
+              </li>
+              <li class="modal-li">
+                <a class="nav-link" href="./achievments.html">Достижения</a>
+              </li>
+              <li class="modal-li">
+                <a class="nav-link" href="./teachers.html">Преподаватели</a>
+              </li>
+              <li class="modal-li">
+                <a class="nav-link" href="./contacts.html">Контакты</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
