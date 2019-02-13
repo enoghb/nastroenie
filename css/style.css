@@ -9,7 +9,6 @@ body {
     font-family: 'Marmelad', sans-serif; }
 
 .navbar {
-  opacity: 0.9;
   background: linear-gradient(to right, #f6c905, #e96804); }
   .navbar li {
     font-size: 1.25rem; }
@@ -60,6 +59,11 @@ body {
   background: linear-gradient(to right, #f6c905, #e96804); }
   #footer a {
     color: black; }
+
+#contacts {
+  background: linear-gradient(to right, #f6c905, #e96804); }
+  #contacts h3 a {
+    color: #fff; }
 
 .message {
   border: 1px solid #d2d0d0;
@@ -134,9 +138,8 @@ body {
     position: relative;
     z-index: 1;
     padding: 15px;
-    color: #444;
     background: #fff;
-    color: #828282; }
+    color: #000; }
 
 .about-item {
   padding: 0 5px;
@@ -209,40 +212,40 @@ body {
 .modal-full {
   min-width: 100%;
   margin: 0; }
-
-.modal-full .modal-content {
-  min-height: 100vh;
-  border: 0;
-  border-radius: 0;
-  background-color: #343a40;
-  opacity: 0.9; }
+  .modal-full .modal-content {
+    min-height: 100vh;
+    border: 0;
+    border-radius: 0;
+    background: linear-gradient(to right, #f6c905, #e96804);
+    opacity: 0.9; }
 
 .modal-ul {
   display: flex;
   flex-direction: column;
   padding-left: 0;
-  margin-bottom: 0; }
-
-.modal-ul .modal-li {
-  border-right: 0;
-  border-left: 0;
-  border-radius: 0; }
-
-.modal-li {
-  position: relative;
-  display: block;
-  padding: 0.75rem 1.25rem;
-  margin-bottom: -1px;
-  border: 1px solid rgba(255, 255, 255, 0.3); }
-  .modal-li a {
-    color: white; }
+  margin-bottom: 0;
+  font-size: 1.4rem; }
+  .modal-ul .modal-li {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-right: 0;
+    border-left: 0;
+    position: relative;
+    display: block;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: -1px; }
+    .modal-ul .modal-li a {
+      color: white; }
 
 #closeModal {
   position: absolute;
   top: 0;
-  right: 0; }
+  right: 0;
+  font-size: 2rem; }
 
 @media (max-width: 992px) {
+  .navbar li {
+    font-size: 1.1rem; }
+
   #header-section {
     min-height: 500px; }
     #header-section h1 {
@@ -300,7 +303,28 @@ body {
   .about-studio,
   .about-achiev,
   .about-teach {
-    min-height: 200px; } }
+    min-height: 200px; }
+
+  #menu {
+    color: #fff; }
+
+  .menu-1 {
+    background: url(../img/slide_1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; }
+
+  .menu-2 {
+    background: url(../img/slide_2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; }
+
+  .menu-3 {
+    background: url(../img/slide_3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; } }
 @media (max-width: 576px) {
   #header-section {
     min-height: 400px; }
@@ -322,6 +346,9 @@ body {
     font-size: 1.25rem; }
   #contact h5 {
     font-size: 1rem; }
+
+  #contacts {
+    background: linear-gradient(to right, #f6c905, #e96804); }
 
   #footer {
     font-size: 0.9rem; }
