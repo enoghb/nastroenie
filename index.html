@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
     crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Marmelad|Roboto+Condensed" rel="stylesheet">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css" />
   <title>Настроение</title>
@@ -14,10 +15,10 @@
 
 <body>
   <nav class="navbar navbar-expand-md navbar-light fixed-top">
-    <div class="container">
+    <div class="container-fluid px-4">
       <a class="navbar-brand" href="./index.html">
         <img src="./img/logo_400x400.png" height="40px" width="40px" alt="Настроение">
-        <h5 class="d-inline align-middle">Настроение</h5>
+        <h4 class="h4 d-inline align-middle">НАСТРОЕНИЕ</h5>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="modal" data-target="#nav-modal" aria-controls="navbarsidebar"
         aria-expanded="false" aria-label="Toggle navigation">
@@ -26,17 +27,17 @@
 
       <div class="collapse navbar-collapse" id="navbarsidebar">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="./index.html#quote">О студии</a>
+          <li class="nav-item px-4 active">
+            <a class="nav-link" href="./index.html#quote">О СТУДИИ</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./achievments.html">Достижения</a>
+          <li class="nav-item px-4">
+            <a class="nav-link" href="./achievments.html">ДОСТИЖЕНИЯ</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./teachers.html">Преподаватели</a>
+          <li class="nav-item px-4">
+            <a class="nav-link" href="./teachers.html">ПРЕПОДАВАТЕЛИ</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./contacts.html">Контакты</a>
+          <li class="nav-item px-4">
+            <a class="nav-link" href="./contacts.html">КОНТАКТЫ</a>
           </li>
         </ul>
       </div>
@@ -46,72 +47,77 @@
   <header id="header-section" class="my-5 d-flex align-items-center">
     <div class="container text-center white">
       <h1 class="display-2 m-0 text-white">Студия детского эстрадного вокала "Настроение"</h1>
-      <button id="presentation-btn" class="my-4 btn btn-default btn-light" data-toggle="modal" data-target=".modal-fullscreen">Открыть
+      <button id="presentation-btn" class="mt-5 btn button btn-warning" data-toggle="modal" data-target=".modal-fullscreen">Открыть
         презентацию</button>
     </div>
   </header>
 
-  <section id="quote" class="m-5">
-    <div class="container-fluid p-4 border border-dark rounded shadow">
-      <h1 class="h3 text-center">Что такое настроение? Это смех, улыбка, радость. Добрые воспоминания, общение с
+  <section id="quote" class="m-5 py-5">
+    <div class="container-fluid p-5">
+      <h1 class="h1 text-center mb-5">Что такое настроение?</h1>
+      <h3 class="h3 text-center m-0">Это смех, улыбка, радость. Добрые воспоминания, общение с
         близкими и тихий шелест листвы. Это люди, которые нас окружают и идеи, которые мы воплощаем в жизнь.
         Настроение
-        – это все то, что нас окружает. Это мир, который мы создаем для себя!</h1>
+        – это все то, что нас окружает. </h3>
+      <h3 class="h3 text-center">Это мир, который мы создаем для себя!</h3>
     </div>
 
   </section>
 
-  <section id="menu" class="my-5 container">
-    <div class="row d-flex align-items-center justify-content-center shadow p-3">
-      <div id="about-text" class="col-lg-4">
-        <h1 class="mb-3 h1 text-center">Настроение</h1>
-        <p class="text-center">Мы группа детского эстрадного вокала бла бла бла поем танцуем шутим бла бла бла у ту ту
-          тю тю</p>
-        <p class="text-center">Мы группа детского эстрадного вокала бла бла бла</p>
-        <p class="text-center">Мы группа детского эстрадного вокала бла бла бла поем танцуем шутим бла бла бла у ту ту
-          тю тю</p>
+  <section id="menu" class="m-5">
+    <div class="container-fluid shadow">
+      <div class="row border item-block">
+        <div class="col bg-1"></div>
+        <div class="d-flex flex-column justify-content-center col">
+          <h1 class="h1 text-center my-3">О нас</h3>
+            <p class="m-0 text-center my-3">Писька срака утютюПиська срака утютюПиська срака утютю</p>
+            <button class="btn btn-warning align-self-center mt-4">Подробнее</button>
+        </div>
       </div>
-      <div id="about-items" class="col-lg-8 col">
-        <div class="row d-flex align-items-center justify-content-center layout">
-          <div class="col-md text-center border-left border-right p-0 my-1 about-item about-studio">
-            <div class="item_details">О студии</div>
-          </div>
-          <div class="col-md text-center border-left border-right p-0 my-1 about-item about-achiev">
-            <div class="item_details">Достижения</div>
-          </div>
-          <div class="col-md text-center border-left border-right p-0 my-1 about-item about-teach">
-            <div class="item_details">Преподаватели</div>
-          </div>
+      <div class="row border item-block">
+        <div class="d-flex flex-column justify-content-center col">
+          <h1 class="h1 text-center my-3">Достижения</h3>
+            <p class="m-0 text-center my-3">Писька срака утютюПиська срака утютюПиська срака утютю</p>
+            <button type="button" class="btn btn-warning align-self-center mt-4">Подробнее</button>
+        </div>
+        <div class="col bg-2"></div>
+      </div>
+      <div class="row border item-block">
+        <div class="col bg-3"></div>
+        <div class="d-flex flex-column justify-content-center col">
+          <h1 class="h1 text-center my-3">Преподаватели</h3>
+            <p class="m-0 text-center my-3">Писька срака утютюПиська срака утютюПиська срака утютю</p>
+            <button class="btn btn-warning align-self-center mt-4">Подробнее</button>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="google-maps" class="my-2 border shadow">
-    <div class="container-fluid">
-      <div class="row">
-        <iframe id="google-maps" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3994.0432213972285!2d30.311735!3d59.964965!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x14ead33b4d1ce1d0!2z0JTQstC-0YDQtdGGINC00LXRgtGB0LrQvtCz0L4g0YLQstC-0YDRh9C10YHRgtCy0LA!5e0!3m2!1sru!2sru!4v1548967107248"
-          frameborder="0" style="border:0" allowfullscreen class="col px-0"></iframe>
-      </div>
+  <section id="google-maps" class="container-fluid my-5 py-5">
+    <!-- <div class=" "> -->
+    <div class="row">
+      <iframe id="google-maps" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3994.0432213972285!2d30.311735!3d59.964965!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x14ead33b4d1ce1d0!2z0JTQstC-0YDQtdGGINC00LXRgtGB0LrQvtCz0L4g0YLQstC-0YDRh9C10YHRgtCy0LA!5e0!3m2!1sru!2sru!4v1548967107248"
+        frameborder="0" style="border:0" allowfullscreen class="col px-0"></iframe>
     </div>
+    <!-- </div> -->
   </section>
 
-  <section id="contact" class="my-2">
-    <div class="container py-4">
+  <section id="contact" class="my-5 pt-5">
+    <div class="container py-5">
       <h3 class="h3 m-0 py-2 text-center">Каменноостровский пр., 36/73, Санкт-Петербург, 197101</h3>
       <h5 class="h5 m-0 py-2 text-center">Телефон: 8 (812) 346-26-08</h5>
       <h5 class="h5 m-0 py-2 text-center"><a href="http://petroddt.ru/" class="m-0">ГБОУ ДДТ Петроградского района</a></h5>
     </div>
   </section>
 
-  <footer id="footer" class="py-3 bg-dark text-white">
+  <footer id="footer" class="py-3">
     <div class="container-fluid row align-items-center">
       <div class="col footer-copyright text-left">
         <p class="mx-2 my-0">©2019 Copyright</p>
       </div>
       <div class="col footer-links text-right pr-0">
-        <a href="http://youtube.com" class="mx-2 text-white"><i class="fab fa-lg fa-youtube"></i></a>
-        <a href="http://vk.com" class="ml-2 text-white"><i class="px-2 fab fa-lg fa-vk"></i></a>
+        <a href="http://youtube.com" class="mx-2"><i class="fab fa-lg fa-youtube"></i></a>
+        <a href="http://vk.com" class="ml-2"><i class="px-2 fab fa-lg fa-vk"></i></a>
       </div>
     </div>
   </footer>

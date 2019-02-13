@@ -1,17 +1,25 @@
 body {
-  margin-top: 66px; }
+  margin-top: 66px;
+  font-family: 'Roboto Condensed', sans-serif; }
+  body h1,
+  body h2,
+  body h3,
+  body h4,
+  body h5 {
+    font-family: 'Marmelad', sans-serif; }
 
 .navbar {
-  box-shadow: 2px 2px 5px #3292a6;
   opacity: 0.9;
-  background: #fff; }
+  background: linear-gradient(to right, #f6c905, #e96804); }
+  .navbar li {
+    font-size: 1.25rem; }
 
 #header-section {
   position: relative;
   background: url(../img/bg.jpg);
   background-size: cover;
   background-position: center;
-  min-height: 600px; }
+  min-height: 92vh; }
   #header-section:after {
     content: '';
     position: absolute;
@@ -20,15 +28,36 @@ body {
     background-color: black;
     opacity: 0.6;
     transition: opacity 0.3s ease-in-out; }
-  #header-section:hover:after {
-    opacity: 0.7; }
   #header-section .white {
     position: relative;
     z-index: 1;
     color: white; }
+  #header-section h1 {
+    font-family: 'Marmelad', sans-serif; }
+  #header-section button {
+    border-radius: 1.5rem;
+    font-size: 1.25rem; }
 
 #google-maps {
   height: 450px; }
+
+#menu {
+  background-color: #fff; }
+  #menu button {
+    border-radius: 1.5rem;
+    font-size: 1.15rem; }
+  #menu p {
+    font-size: 1.3rem; }
+
+#quote {
+  font-family: 'Roboto Condensed', sans-serif; }
+  #quote h1 {
+    font-family: 'Marmelad', sans-serif; }
+
+#footer {
+  background: linear-gradient(to right, #f6c905, #e96804); }
+  #footer a {
+    color: black; }
 
 .message {
   border: 1px solid #d2d0d0;
@@ -134,25 +163,46 @@ body {
       z-index: 0; }
 
 .about-studio {
-  position: relative;
   background: url(../img/galery_6.jpg);
   background-size: cover;
   background-position: center;
   min-height: 400px; }
 
 .about-achiev {
-  position: relative;
   background: url(../img/slide_1.jpg);
   background-size: cover;
   background-position: center;
   min-height: 400px; }
 
 .about-teach {
-  position: relative;
   background: url(../img/teacher_3.jpg);
   background-size: cover;
   background-position: center;
   min-height: 400px; }
+
+.bg-1 {
+  background: url(../img/slide_1.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+  background-repeat: no-repeat; }
+
+.bg-2 {
+  background: url(../img/slide_2.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+  background-repeat: no-repeat; }
+
+.bg-3 {
+  background: url(../img/slide_3.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+  background-repeat: no-repeat; }
+
+.item-block {
+  height: 450px; }
 
 .modal-full {
   min-width: 100%;
