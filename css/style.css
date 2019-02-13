@@ -17,7 +17,6 @@ body {
   position: relative;
   background: url(../img/bg.jpg);
   background-size: cover;
-  background-position: center;
   min-height: 92vh; }
   #header-section:after {
     content: '';
@@ -53,7 +52,8 @@ body {
 #quote {
   font-family: 'Roboto Condensed', sans-serif; }
   #quote h1 {
-    font-family: 'Marmelad', sans-serif; }
+    font-family: 'Marmelad', sans-serif;
+    font-size: 3rem; }
 
 #footer {
   background: linear-gradient(to right, #f6c905, #e96804); }
@@ -204,6 +204,24 @@ body {
   background: url(../img/slide_3.jpg);
   background-size: cover;
   background-position: center;
+  min-height: 400px;
+  background-repeat: no-repeat; }
+
+.teacher_1_img {
+  background: url(../img/teacher_1.jpg);
+  background-size: cover;
+  min-height: 500px;
+  background-repeat: no-repeat; }
+
+.teacher_2_img {
+  background: url(../img/teacher_2.jpg);
+  background-size: cover;
+  min-height: 500px;
+  background-repeat: no-repeat; }
+
+.teacher_3_img {
+  background: url(../img/teacher_3.jpg);
+  background-size: cover;
   min-height: 400px;
   background-repeat: no-repeat; }
 
