@@ -46,6 +46,8 @@ body {
   #menu button {
     border-radius: 1.5rem;
     font-size: 1.15rem; }
+    #menu button a {
+      color: black; }
   #menu p {
     font-size: 1.3rem; }
 
