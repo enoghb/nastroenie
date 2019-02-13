@@ -139,7 +139,8 @@ body {
     z-index: 1;
     padding: 15px;
     background: #fff;
-    color: #000; }
+    color: #000;
+    font-family: 'Marmelad', sans-serif; }
 
 .about-item {
   padding: 0 5px;
@@ -217,7 +218,7 @@ body {
     border: 0;
     border-radius: 0;
     background: linear-gradient(to right, #f6c905, #e96804);
-    opacity: 0.9; }
+    opacity: 0.99; }
 
 .modal-ul {
   display: flex;
@@ -307,6 +308,8 @@ body {
 
   #menu {
     color: #fff; }
+    #menu button {
+      width: 40%; }
 
   .menu-1 {
     background: url(../img/slide_1.jpg);
@@ -348,10 +351,19 @@ body {
     font-size: 1rem; }
 
   #contacts {
-    background: linear-gradient(to right, #f6c905, #e96804); }
+    background: #fff;
+    border: 0 !important;
+    box-shadow: none !important; }
+
+  #contacts_cont {
+    color: #000;
+    margin-top: 3rem; }
 
   #footer {
     font-size: 0.9rem; }
 
   #google-maps {
-    height: 250px; } }
+    height: 250px; }
+
+  #menu button {
+    width: 50%; } }
