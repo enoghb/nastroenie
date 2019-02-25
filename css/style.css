@@ -2,15 +2,17 @@ html,
 body {
   height: 100%; }
 
+body {
+  padding-top: 66px; }
+
 .wrapper {
   height: 100%; }
 
-body {
-  padding-top: 66px;
-  font-family: 'Roboto Condensed', sans-serif; }
+.display-3 {
+  font-family: 'Marmelad', sans-serif; }
 
 .navbar {
-  background-color: #b5d054; }
+  background: linear-gradient(to right, #f6c905, #e96804); }
   .navbar li {
     font-size: 1.25rem; }
 
@@ -28,79 +30,35 @@ body {
     width: 100%;
     height: 100%;
     background-color: black;
-    opacity: 0.6;
-    transition: opacity 0.3s ease-in-out; }
-  #header-section .white {
+    opacity: 0.6; }
+  #header-section .header-content {
     position: relative;
-    z-index: 1;
-    color: white; }
-  #header-section h1 {
-    font-family: 'Marmelad', sans-serif; }
+    z-index: 1; }
   #header-section button {
     border-radius: 1.5rem;
     font-size: 1.25rem; }
 
-#header-teachers h1,
-#header-teachers h2,
-#header-teachers h3,
-#header-teachers h4,
-#header-teachers h5,
-#header-contacts h1,
-#header-contacts h2,
-#header-contacts h3,
-#header-contacts h4,
-#header-contacts h5,
-#header-about h1,
-#header-about h2,
-#header-about h3,
-#header-about h4,
-#header-about h5,
-#header-achiev h1,
-#header-achiev h2,
-#header-achiev h3,
-#header-achiev h4,
-#header-achiev h5 {
-  font-family: 'Marmelad', sans-serif; }
-
-#header_achiev .display-3 {
-  font-family: 'Marmelad', sans-serif; }
-
-#teachers h5 {
-  font-family: 'Roboto Condensed', sans-serif; }
-
 #google-maps {
   height: 450px; }
 
-#menu {
-  background-color: #fff; }
-  #menu button {
-    border-radius: 1.5rem;
-    font-size: 1.15rem; }
-    #menu button a {
-      color: black; }
-  #menu p {
-    font-size: 1.3rem; }
-  #menu h1 {
-    font-family: 'Marmelad', sans-serif; }
+#menu button {
+  border-radius: 1.5rem;
+  font-size: 1.15rem; }
+  #menu button a {
+    color: black; }
+#menu p {
+  font-size: 1.3rem; }
 
-#quote {
-  font-family: 'Roboto Condensed', sans-serif; }
-  #quote h1 {
-    font-family: 'Marmelad', sans-serif;
-    font-size: 3rem; }
+#quote h1 {
+  font-size: 3rem; }
 
 #footer {
   background: linear-gradient(to right, #f6c905, #e96804); }
   #footer a {
     color: black; }
 
-#contacts h3 {
-  font-family: 'Marmelad', sans-serif; }
-  #contacts h3 a {
-    color: #fff; }
-
-#about h1 {
-  font-family: 'Marmelad', sans-serif; }
+#contacts h3 a {
+  color: #fff; }
 
 .message {
   border: 1px solid #d2d0d0;
@@ -134,23 +92,14 @@ body {
   justify-content: flex-end;
   box-sizing: border-box;
   background: #0c9a9a;
+  background-image: url("../img/galery_6.jpg");
+  background-position: center;
+  background-size: cover;
   color: #fff;
   grid-column-start: auto;
   grid-row-start: auto;
-  background: url("https://images.unsplash.com/photo-1470124182917-cc6e71b22ecc?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=");
-  background-size: cover;
-  background-position: center;
   box-shadow: -2px 2px 10px 0px rgba(68, 68, 68, 0.4);
-  transition: transform 0.3s ease-in-out;
-  cursor: pointer; }
-  .item:nth-of-type(3n) {
-    background-image: url("https://images.unsplash.com/photo-1422255198496-21531f12a6e8?dpr=2&auto=format&fit=crop&w=1500&h=996&q=80&cs=tinysrgb&crop="); }
-  .item:nth-of-type(4n) {
-    background-image: url("https://images.unsplash.com/photo-1490914327627-9fe8d52f4d90?dpr=2&auto=format&fit=crop&w=1500&h=2250&q=80&cs=tinysrgb&crop="); }
-  .item:nth-of-type(5n) {
-    background-image: url("https://images.unsplash.com/photo-1476097297040-79e9e1603142?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop="); }
-  .item:nth-of-type(6n) {
-    background-image: url("https://images.unsplash.com/photo-1464652149449-f3b8538144aa?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop="); }
+  transition: transform 0.3s ease-in-out; }
   .item:after {
     content: '';
     position: absolute;
@@ -159,6 +108,16 @@ body {
     background-color: black;
     opacity: 0.3;
     transition: opacity 0.3s ease-in-out; }
+  .item:nth-child(2n) {
+    background-image: url("../img/galery_1.jpg"); }
+  .item:nth-child(3n) {
+    background-image: url("../img/galery_2.jpg"); }
+  .item:nth-child(4n) {
+    background-image: url("../img/galery_3.jpg"); }
+  .item:nth-child(5n) {
+    background-image: url("../img/galery_4.jpg"); }
+  .item:nth-child(6n) {
+    background-image: url("../img/galery_5.jpg"); }
   .item:hover:after {
     opacity: 0; }
   .item-medium {
@@ -177,7 +136,6 @@ body {
     padding: 15px;
     background: #fff;
     color: #000;
-    font-family: 'Marmelad', sans-serif;
     font-size: 1.06rem; }
 
 .about-item {
@@ -205,24 +163,6 @@ body {
       opacity: 0; }
     .about-item:hover .item_details {
       z-index: 0; }
-
-.about-studio {
-  background: url(../img/galery_6.jpg);
-  background-size: cover;
-  background-position: center;
-  min-height: 400px; }
-
-.about-achiev {
-  background: url(../img/slide_1.jpg);
-  background-size: cover;
-  background-position: center;
-  min-height: 400px; }
-
-.about-teach {
-  background: url(../img/teacher_3.jpg);
-  background-size: cover;
-  background-position: center;
-  min-height: 400px; }
 
 .bg-1 {
   background: url(../img/slide_1.jpg);
@@ -276,8 +216,7 @@ body {
   z-index: 1;
   padding: 15px;
   background: rgba(255, 255, 255, 0.9);
-  color: #000;
-  font-family: 'Marmelad', sans-serif; }
+  color: #000; }
 
 .teacher_1_img {
   background: url(../img/teacher_1.jpg);
@@ -287,12 +226,6 @@ body {
 
 .teacher_2_img {
   background: url(../img/teacher_2.jpg);
-  background-size: cover;
-  min-height: 400px;
-  background-repeat: no-repeat; }
-
-.teacher_3_img {
-  background: url(../img/teacher_3.jpg);
   background-size: cover;
   min-height: 400px;
   background-repeat: no-repeat; }
@@ -428,10 +361,6 @@ body {
     background: #fff;
     border: 0 !important;
     box-shadow: none !important; }
-
-  #contacts_cont {
-    color: #000;
-    margin-top: 3rem; }
 
   #footer {
     font-size: 0.9rem; }
